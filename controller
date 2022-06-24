@@ -10,7 +10,7 @@ class ActualiteController extends AbstractController
         ]);
     }
     /**
-     * @Route("/like", name="like")
+     * @Route("/aime", name="like")
      */
     public function like(): Response
     {
