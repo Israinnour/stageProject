@@ -1,0 +1,77 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:#FFF;
+}
+/*----start-wrap----*/
+.wrap{
+	width:70%;
+	margin:0 auto;
+}
+/*----start-header----*/
+.header{
+	
+}
+.top-header{
+	background:#2C3E50;
+}
+.top-header-left{
+	float:left;
+	font-size: 0.9em;
+}
+.top-header-left ul li{
+	display:inline-block;
+	border-left: 1px ridge #36485A;
+	border-right: 1px ridge #28323C;
+	padding: 0.4em 1em 0.3em;
+	float:left;
+}
+.top-header-left ul li:first-child{
+	border-left:none;
+}
+.top-header-left ul li a{
+	display: inline-block;
+}
+.top-header-left ul li span{
+	width:28px;
+	height:28px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.top-header-left ul li  p{
+	display:inline-block;
+	color:#F0F0F0;
+}
+.top-header-left ul li:nth-child(1) a,.top-header-left ul li:nth-child(2) a{
+	color:#F0F0F0;
+}
+.top-header-left ul li:nth-child(1) a span,.top-header-left ul li:nth-child(2) a span{
+	background:url(../images/agent.png) no-repeat 0px 0px;
+}
+.top-header-left ul li  p span{
+	background:url(../images/01.png) no-repeat 0px 0px;
+}
+.top-header-right{
+	float:right;
+}
+.reg{
+	color:#1DD2AF;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+.reg:hover{
+	color:#FFF;
+}
+.top-header-right ul li{
+	float: left;
+}
+.top-header-right ul li a{
+	display: block;
+	padding: 0.55em;
+}
+.top-header-right ul li a span{
+	height:20px;
+	width: 20px;
+	display: block;
+}
