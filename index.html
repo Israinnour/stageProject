@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>{% block title %}Actualite{% endblock %}</title>
+
+    <link href="front/css/style.css" rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    </script>
+    <script src="front/js/jquery.min.js"></script>
+
+    <!---script---->
+
+    <link rel="stylesheet" href="front/css/jquery.bxslider.css" type="text/css" />
+    <script src="front/js/jquery.bxslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                auto: true,
+                autoControls: true,
+                minSlides: 4,
+                maxSlides: 4,
+                slideWidth:450,
+                slideMargin: 10
+            });
+        });
+    </script>
+</html>
+</head>
