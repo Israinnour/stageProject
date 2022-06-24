@@ -1,7 +1,7 @@
 class ActualiteController extends AbstractController
 {
     /**
-     * @Route("/actualite", name="actualite")
+     * @Route("/actualites", name="actualites")
      */
     public function index(): Response
     {
