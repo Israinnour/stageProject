@@ -10,21 +10,21 @@ class Actualite
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $publication;
+    private $description;
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getPublication(): ?string
+    public function getDescription(): ?string
     {
-        return $this->publication;
+        return $this->Description;
     }
 
-    public function setPublication(string $publication): self
+    public function setDescription(string $description): self
     {
-        $this->publication = $publication;
+        $this->description = $description;
 
         return $this;
     }
